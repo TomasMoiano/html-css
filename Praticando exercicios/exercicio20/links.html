@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando - Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+         
+        a {
+            background-color: rgb(152, 250, 152);
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: rgb(214, 211, 211);
+            color: black;
+            text-decoration: underline;
+            font-weight: bolder;
+            font-size: large;
+            
+        }
+
+        a:visited{
+            color: green;
+        }
+          
+        a:active {
+            color: purple;
+            background-color: rgb(255, 143, 255);
+        }
+
+        .especial{
+            background-color: rgb(255, 143, 143);
+            
+        }
+
+
+        .especial::before{
+            content: '➾ ';
+        }
+        
+        .especial::after{
+            content: ' ⇐';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Link</h1>
+    <ul>
+        <li><a href="https://github.com/" class="especial" target="_blank">Site GitHub</a></li>
+        <li><a href="https://www.youtube.com/"  class="especial" target="_blank">YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" class="especial">Site do Curso em Vídeo</a></li>
+        <li> <a target="_blank" href="https://www.instagram.com/" class="especial">Instagram do Curso em Vídeo</a></li>
+    </ul>
+
+
+</body>
+
+</html>

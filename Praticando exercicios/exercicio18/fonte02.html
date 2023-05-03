@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando - Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'The Queen';
+            src: url('fontes/The Queen.otf') format('opentype');
+
+            font-weight: normal;
+            font-size: normal;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'The Queen';
+            font-size: 60px;
+            font-weight: 400;
+            color: rgb(255, 238, 0);
+            text-shadow: 5px 5px 10px black;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: #000;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Olá, mundo! Esta é uma fonte externa!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio debitis molestiae minima, odit, eius est commodi
+        obcaecati corporis adipisci quos soluta distinctio excepturi maxime veniam ab, ratione accusamus dolore
+        exercitationem?</p>
+    <a href="fonte01.html">Fontes do Google e VS Code</a>
+
+</body>
+
+</html>

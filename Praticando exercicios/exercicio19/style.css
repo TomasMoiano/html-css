@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 231, 172)
+}
+
+.principal {
+    color: rgb(255, 255, 255);
+    background-color: green;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 3em;
+}
+
+.titulo1 {
+    color: rgb(1, 88, 1);
+}
+
+.titulo-basico {
+    color: rgb(80, 80, 250);
+    font-size: 1.5em;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.titulo-intermediario {
+    color: rgb(250, 134, 1);
+    font-size: 1.5em;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+}
+
+.titulo-avançado {
+    color: red;
+    font-size: 1.5em;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
